@@ -1,2 +1,0 @@
-# tendencialephre
-Tienda en linea
