@@ -22,13 +22,18 @@
         </div>
         <nav class="main-nav">
             <div class="logo">
-                <a href="index.html" class="gradient-text">Tendencia Shop</a>
+                <a href="index.html" class="gradient-text" id="logo-text">Tendencia Shop</a>
             </div>
+            
             <button class="hamburger-menu" id="hamburger-menu" aria-label="Abrir menú">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </button>
+            <div class="search-icon-container" id="search-icon-container">
+                <i class="fas fa-search"></i>
+                <span class="search-text">Busca el futuro acá</span>
+            </div>
             <ul class="nav-links" id="nav-links">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="tienda.html">Tienda</a></li>
@@ -39,14 +44,15 @@
                     <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
-                    <a href="https://wa.me/573000000000" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://wa.me/573116149721" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </ul>
         </nav>
     </header>
 
     <!-- Immersive Fullscreen Slider v5 -->
-    <section class="immersive-slider-container">
+    <div class="technological-frame">
+        <section class="immersive-slider-container">
         <div class="slider-background-effects"></div>
         <div class="immersive-slider-wrapper">
             <!-- Slide 1 -->
@@ -55,7 +61,7 @@
                     <img src="img/Gadgets.jpg" alt="Categoría Gadgets">
                 </div>
                 <div class="slide-title-container">
-                    <h2>Gadgets</h2>
+                    <button class="category-btn" data-category="Gadgets">Consultar Gadgets</button>
                 </div>
             </div>
             <!-- Slide 2 -->
@@ -64,25 +70,25 @@
                     <img src="img/Domotica.jpg" alt="Categoría Domótica">
                 </div>
                 <div class="slide-title-container">
-                    <h2>Domótica</h2>
+                    <button class="category-btn" data-category="Domótica">Consultar Domótica</button>
                 </div>
             </div>
             <!-- Slide 3 -->
             <div class="immersive-slide">
                 <div class="slide-image-container">
-                    <img src="img/Autos-lujios.jpg" alt="Categoría Artilujos de Auto">
+                    <img src="img/Autos-lujios.jpg" alt="Categoría Artilujos">
                 </div>
                 <div class="slide-title-container">
-                    <h2>Artilujos de Auto</h2>
+                    <button class="category-btn" data-category="Artilujos">Consultar Artilugios</button>
                 </div>
             </div>
             <!-- Slide 4 -->
             <div class="immersive-slide">
                 <div class="slide-image-container">
-                    <img src="img/Imgenes-info-productos.jpgahora " alt="Categoría Infoproductos">
+                    <img src="img/Imgenes-info-productos.jpg" alt="Categoría Infoproductos">
                 </div>
                 <div class="slide-title-container">
-                    <h2>Infoproductos</h2>
+                    <button class="category-btn" data-category="Infoproductos">Consultar Infoproductos</button>
                 </div>
             </div>
         </div>
@@ -90,6 +96,7 @@
         <button class="immersive-slider-btn next"><i class="fas fa-chevron-right"></i></button>
         <div class="immersive-slider-dots"></div>
     </section>
+    </div>
 
     <!-- Featured Products Section -->
     <section class="featured-products-section">
@@ -133,6 +140,9 @@
                     </div>
                 </div>
             </div>
+            <div class="section-cta">
+                <a href="categorias.html" class="btn-primary">Explorar Categorías</a>
+            </div>
         </div>
     </section>
 
@@ -143,6 +153,9 @@
                 <div class="qa-icon"><i class="fas fa-flask"></i></div>
                 <h3>Calidad Certificada</h3>
                 <p>Cada producto es probado y certificado por Tendencia Shop. Pruebas exhaustivas para garantizar un rendimiento propio del futuro.</p>
+                <div class="section-cta">
+                    <a href="nosotros.html" class="btn-primary">Conoce Nuestra Calidad</a>
+                </div>
             </div>
         </div>
     </section>
@@ -169,6 +182,9 @@
                     <p>Integración con IA y Automatización</p>
                 </div>
             </div>
+            <div class="section-cta">
+                <a href="nosotros.html" class="btn-primary">Descubre Nuestro Proceso</a>
+            </div>
         </div>
     </section>
 
@@ -178,7 +194,7 @@
             <button id="close-popup" class="close-button">&times;</button>
             <h3>¡Oferta Especial!</h3>
             <p>Compra ahora mismo valores superiores a <strong>$80.000 COP</strong> y lleva un 3er artículo GRATIS o un infoproducto de tu elección.</p>
-            <a href="https://wa.me/573000000000?text=Hola!%20Quiero%20mi%20promo%20especial." target="_blank" class="promo-button"><i class="icon-hand"></i> Pedir Promo Ahora</a>
+            <a href="https://wa.me/573116149721?text=Hola!%20Quiero%20mi%20promo%20especial." target="_blank" class="promo-button"><i class="icon-hand"></i> Pedir Promo Ahora</a>
         </div>
     </div>
 

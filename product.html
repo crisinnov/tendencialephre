@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audífonos TWS Pro - Tendencia Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div id="intro-screen">
+        <div class="intro-content">
+            <p>Has llegado a la matrix de la innovación en Colombia</p>
+        </div>
+    </div>
+
+    <header class="site-header">
+        <div class="top-bar">
+            <div id="dynamic-text-container">
+                <p id="dynamic-text" class="gradient-text">Compra rápido y sin errores</p>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="logo">
+                <a href="index.html" class="gradient-text">Tendencia Shop</a>
+            </div>
+            <button class="hamburger-menu" id="hamburger-menu" aria-label="Abrir menú">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="categorias.html">Categorías</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <div class="social-icons-menu">
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://wa.me/573116149721" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-page-main-content">
+        <div class="container">
+            <div class="product-layout">
+                <!-- Galería de Imágenes -->
+                <div class="product-gallery">
+                    <div class="main-image">
+                        <img src="https://via.placeholder.com/600x600/f5f5f7/1d1d1f?text=Cargando..." alt="Imagen Principal del Producto" id="main-product-image">
+                    </div>
+                    <div class="thumbnail-images" id="thumbnail-images">
+                        <!-- Thumbnails se generarán aquí -->
+                    </div>
+                </div>
+
+                <!-- Detalles del Producto -->
+                <div class="product-details">
+                    <h1 class="product-title" id="product-title">Cargando...</h1>
+                    <p class="product-price" id="product-price">$0</p>
+                    <p class="product-short-description" id="product-description">
+                        Cargando descripción...
+                    </p>
+                    
+                    <div class="purchase-actions">
+                        <div class="quantity-selector">
+                            <label for="quantity">Cantidad:</label>
+                            <input type="number" id="quantity" name="quantity" value="1" min="1">
+                        </div>
+                        <a href="https://wa.me/573116149721" class="btn-whatsapp" id="whatsapp-button" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Comprar por WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pestañas de Información Detallada -->
+            <div class="product-info-tabs">
+                <div class="tab-headers">
+                    <button class="tab-link active" data-tab="descripcion-detallada">Descripción</button>
+                    <button class="tab-link" data-tab="especificaciones">Especificaciones</button>
+                </div>
+                <div id="descripcion-detallada" class="tab-content active">
+                    <!-- Contenido dinámico -->
+                </div>
+                <div id="especificaciones" class="tab-content">
+                    <!-- Contenido dinámico -->
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<footer>
+    <p>&copy; Todos los derechos Tendencia Shop web hecha por DayBit.co</p>
+</footer>
